@@ -1,0 +1,33 @@
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+        
+    </head> 
+    <body>
+        <div class="container">
+            <div >
+                <h1 class = "header_text">So, can your future wife now address you by Dr. Sweetheart?</h1>
+            </div>
+            <div class="gif_container">
+                <img src="https://media.giphy.com/media/jslAykAcR9c5cpo7mA/giphy.gif?cid=790b76118jca8i8djiof0kih0sy1fqwjdmlrmaej6ywgy4za&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Cute animated illustration">
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPage()">Yes, because I am very happy today.<br> Shob kichute hae bolbo</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">Girl, don't start again <br> It's a clear NO</button>
+                <script>
+                    function nextPage() {
+                        window.location.href = "Little afsos.html";
+                    }
+                    
+                    function moveButton() {
+                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+                        document.getElementById('noButton').style.left = `${x}px`;
+                        document.getElementById('noButton').style.top = `${y}px`;
+                    }
+                </script> 
+            </div>
+        </div>
+       
+    </body> 
+</html>

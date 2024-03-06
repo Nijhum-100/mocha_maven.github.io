@@ -1,0 +1,74 @@
+/* Background and gradients */
+body {
+    background: -webkit-linear-gradient(to right, #FFEFEF, #F5F5F5); /* Light background gradient */
+    font-family: "Playfair Display", cursive; /* Cursive font for dreaminess */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container styling */
+  .container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners for a softer feel */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle drop shadow */
+  }
+  
+  /* Headings and Paragraphs */
+  h1, h2, h3, p {
+    margin: 15px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 30px;
+    color: #9933CC; /* Light purple for a dreamy feel */
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333; /* Darker text for readability */
+  }
+  
+  /* Signature */
+  .signature p {
+    font-size: 16px;
+    text-align: right;
+    font-style: italic; /* Italics for a more personal touch */
+  }
+  
+  /* Button Container */
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Button style */
+  .btn {
+    background-color: #FFC0CB; /* Light pink color */
+    border: none;
+    color: #333;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #F08080; /* Pinker on hover */
+  }
+  
+  /* Link styling */
+  a {
+    color: #9933CC; /* Light purple for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
